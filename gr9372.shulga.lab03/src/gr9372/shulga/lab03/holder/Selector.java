@@ -1,0 +1,14 @@
+package gr9372.shulga.lab03.holder;
+
+import java.util.Iterator;
+/**
+ *  Selector реализует интерфейс Iterator. Конкретные реализации класса должны
+ *  проходить по переданному итератору отфильтровывая ненужные элементы. 
+ */
+public interface Selector extends Iterator<Integer>{	
+	/** 
+	    *  Устанавливает iterator, из которого берутся значения. 
+	    */
+	   void setIterator(Iterator<Integer> iterator);
+
+}
